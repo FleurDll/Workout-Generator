@@ -1,0 +1,91 @@
+/* COLOR
+
+#0071F2;
+#FD9900;
+#001833;
+#F5FaFF;
+
+#011a27;
+#063852;
+#f0810f;
+#e6df44;
+
+#00293c;
+#1e656d;
+#f1f3ce;
+#f62a00;
+
+#2988bc;
+#2f496e;
+#f4eade;
+#ed8c72;
+ */
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: center / cover no-repeat url(/images/forest.jpg);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  color: #00293c;
+}
+
+h1 {
+  letter-spacing: 4px;
+}
+
+p {
+  letter-spacing: 1.5px;
+}
+
+.fenetre {
+  background-color: #fff;
+  margin: auto;
+  width: 450px;
+  height: 500px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 12px;
+  border: solid;
+  border-color: #00293c;
+  border-width: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  letter-spacing: 2px;
+}
+
+.haut {
+  margin: 30px;
+}
+
+.button-refresh {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.chrono {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 12px;
+  border: solid;
+  border-color: #00293c;
+  border-width: 5px;
+}
+
+.chrono-number {
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  font-weight: bold;
+  width: 200px;
+  border: none;
+}
+
+.fas {
+  margin: 5px;
+}
